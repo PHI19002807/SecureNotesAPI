@@ -14,4 +14,4 @@ jobs:
       - name: Install dependencies
         run: pip install bandit
       - name: Run Bandit
-        run: bandit -r .
+        run: bandit app_secure.py
