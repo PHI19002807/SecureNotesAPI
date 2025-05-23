@@ -44,4 +44,3 @@ def get_notes():
 if __name__ == '__main__':
     app.run(debug=False)
 
-#Trigger bandit scan
